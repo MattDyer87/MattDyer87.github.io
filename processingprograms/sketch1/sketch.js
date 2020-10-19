@@ -1,7 +1,5 @@
-const { FILL } = require("../p5-test");
-
 function setup() {
-  createCanvas(480, 120);
+  createCanvas(480, 520);
 }
 
 function draw() {
