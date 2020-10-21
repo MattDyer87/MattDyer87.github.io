@@ -1,38 +1,114 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!-- Thank you to Yong Bakos - Oregon State Cascades -->
 
-<head>
-    <title>Scratch</title>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Processing Programs</title>
+
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-</head>
-<body>
+    
+    <!-- Your custom styles for this template -->
+    <link href="FIXME.css" rel="stylesheet">
+  </head>
 
+  <body>
 
+    <!-- Start of the Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<div class="mx-auto" style="width: 500px;">
-    <h1>Scratch Programs</h1>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
 
-    <h2>Friction Ball</h2>
-    <a href="https://scratch.mit.edu/projects/429978932" target=_blank>Friction Ball Project Page</a>
-    <iframe src="https://scratch.mit.edu/projects/429978932/embed" allowtransparency="true"
-        width="485" height="402" frameborder="0" scrolling="no" allowfullscreen>
-    </iframe>
+          <!-- Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="http://w3schools.com" target=_blank>W3 Schools</a>
+              <a class="dropdown-item" href="https://docs.google.com/document/d/14xGM2S8VtZmayiHNqiEk3fM7qhoP1HHLDtQCBpUb0kw/edit?usp=sharing" target=_blank>CS 160 Work Schedule</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
 
-    <h2>Traverse</h2>
-    <a href="https://scratch.mit.edu/projects/430351325" target=_blank>Traverse Project Page</a>
-    <iframe src="https://scratch.mit.edu/projects/430351325/embed" allowtransparency="true" 
-        width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
-    <h2>FPS Aim Trainer</h2>
-    <a href="https://scratch.mit.edu/projects/430351119" target=_blank>FPS Aim Trainer Project Page</a>
-    <iframe src="https://scratch.mit.edu/projects/430351119/embed" allowtransparency="true" 
-    width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+          <!-- Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cheatsheets</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="https://docs.emmet.io/cheat-sheet/" target=_blank>Emmet</a>
+              <a class="dropdown-item" href="https://drive.google.com/file/d/0BxQ7KEGbNbAqNVdhYWpIY2lfQVE/view" target=_blank>Python</a>
+              <a class="dropdown-item" href="https://docs.google.com/document/d/1cAxrvVRHBW5a14opJSZNlSHsP4n2P0QrIRhWWf0waHM/edit" target=_blank>Beginning Python</a>
+            </div>
+          </li>
+        </ul>
         
-    <a href="../index.html">Go Home</a>
-</div>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Does Nothing</button>
+        </form>
+      </div>
+    </nav> <!-- End of Navbar -->
+
+    <main role="main">
+
+      <!-- Main heading -->
+      <div class="jumbotron" style="background-color: rebeccapurple;" >
+        <div class="container" style="height: 130px;">
+          <h1 class="display-3" style="color: white;" >Scratch Programs</h1>
+          <p style="font-size: 18pt; color: white;">Learning the basics of programming logic with Scratch!</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- First row of columns -->
+        <div class="row">
+
+          <div class="col-md-4">
+            <h2>Friction Ball</h2>
+            <p><a class="btn btn-secondary" href="frictionball/index.html" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-4">
+            <h2>Traverse</h2>
+            <p><a class="btn btn-secondary" href="traverse/index.html" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-4">
+            <h2>FPS Aim Trainer</h2>
+            <p><a class="btn btn-secondary" href="aimtrainer/index.html" role="button">View details &raquo;</a></p>
+          </div>
 
 
+      
+    </main>
 
-</body>
+    <footer class="container">
+      <p>&copy; COCC 2020-2021</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
