@@ -1,40 +1,138 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!-- Thank you to Yong Bakos - Oregon State Cascades -->
 
-<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Python</title>
+
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial scale=1.0">
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Your custom styles for this template -->
+    <link href="FIXME.css" rel="stylesheet">
+  </head>
 
-<body>
+  <body>
 
-<h1>Python</h1>
+    <!-- Start of the Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<h2>BMI Calculator</h2>
-<iframe height="400px" width="100%" src="https://repl.it/@mdyer3/firstprogrampy?lite=true" 
-scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" 
-sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
 
-<h2>Loan Payment Calculator</h2>
-<iframe height="400px" width="100%" src="https://repl.it/@mdyer3/RemarkableGlitteringStaff?lite=true" 
-scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" 
-sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+          <!-- Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="https://docs.google.com/document/d/14xGM2S8VtZmayiHNqiEk3fM7qhoP1HHLDtQCBpUb0kw/edit?usp=sharing" target=_blank>CS 160 Work Schedule</a>
+              <a class="dropdown-item" href="http://w3schools.com" target=_blank>W3 Schools</a>
+              <a class="dropdown-item" href="http://repl.it" target=_blank>Repl</a>
+              <a class="dropdown-item" href="https://scratch.mit.edu/" target=_blank>Scratch</a>
+              <a class="dropdown-item" href="https://cscircles.cemc.uwaterloo.ca/" target=_blank>CS Circles</a>
+              <a class="dropdown-item" href="https://codehs.com" target=_blank>Code HS</a>
+            </div>
+          </li>
 
-<h2>Gas Mileage Calculator</h2>
-<iframe height="400px" width="100%" src="https://repl.it/@mdyer3/GasMileageCalculator?lite=true" 
-scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" 
-sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+          <!-- Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cheatsheets</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="https://docs.emmet.io/cheat-sheet/" target=_blank>Emmet</a>
+              <a class="dropdown-item" href="https://drive.google.com/file/d/0BxQ7KEGbNbAqNVdhYWpIY2lfQVE/view" target=_blank>Python</a>
+              <a class="dropdown-item" href="https://docs.google.com/document/d/1cAxrvVRHBW5a14opJSZNlSHsP4n2P0QrIRhWWf0waHM/edit" target=_blank>Beginning Python</a>
+            </div>
+          </li>
+        </ul>
+        
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Does Nothing</button>
+        </form>
+      </div>
+    </nav> <!-- End of Navbar -->
 
-<h2>Rock, Paper, Scissors</h2>
-<iframe height="400px" width="100%" src="https://repl.it/@mdyer3/StoneParchmentShears?lite=true" 
-scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" 
-sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+    <main role="main">
 
-<a href="../index.html">Go Home</a>
+      <!-- Main heading -->
+      <div class="jumbotron" style="background-color: red;" >
+        <div class="container" style="height: 130px;">
+          <h1 class="display-3" style="color: yellow;" >Python Programs</h1>
+          <p style="font-size: 18pt; color: orange;">My first programs learning the Python language</p>
+        </div>
+      </div>
 
-</body>
+      <div class="container">
+        <!-- First row of columns -->
+        <div class="row">
+
+          <div class="col-md-4">
+            <h2>BMI Calculator</h2>
+            <p><a class="btn btn-secondary" href="bmicalc/index.html" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-4">
+            <h2>Loan Payment Calculator</h2>
+            <p><a class="btn btn-secondary" href="loancalc/index.html" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-4">
+            <h2>MPG Calculator</h2>
+            <p><a class="btn btn-secondary" href="mpgcalc/index.html" role="button">View details &raquo;</a></p>
+          </div>
+          
+          
+          
+        </div>
+      </div> <!-- /End of first row -->
+
+      <hr>
+
+      <div class="container">
+        <!-- Another row of columns -->
+        <div class="row">
+
+          <div class="col-md-6">
+            <h2>Rock, Paper, Scissors</h2>
+            <p><a class="btn btn-secondary" href="rps/index.html" role="button">View details &raquo;</a></p>
+          </div>
+          
+          <div class="col-md-6">
+            <h2>MasterMind</h2>
+            <p><a class="btn btn-secondary" href="mastermind/index.html" role="button">View details &raquo;</a></p>
+          </div>
+         
+          
+        </div>
+      </div> <!-- /container -->
+
+      
+    </main>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
