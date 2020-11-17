@@ -9,15 +9,15 @@ function setup() {
     stroke(102);
 }
 function draw() {
+    var targetX = mouseX;
+    x += (targetX - x) * easing;
+    var targetY = mouseY;
+    y += (targetY - y) * easing;
+    var weight = dist(x, y, px, py);
+    strokeWeight(weight);
+    py = y;
+    px = x;
     if (mouseIsPressed) {
-        var targetX = mouseX;
-        x += (targetX - x) * easing;
-        var targetY = mouseY;
-        y += (targetY - y) * easing;
-        var weight = dist(x, y, px, py);
         line(x, y, px, py);
-        strokeWeight(weight);
-        py = y;
-        px = x;
     }
 }
